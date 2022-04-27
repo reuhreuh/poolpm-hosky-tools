@@ -33,8 +33,8 @@ const POOLS_TRAITS = new Map([
     ['A3C',[{'Background': 'Late Night'},{"Fur": "Pink"},{"Eyes": null},{"Ear Decoration": null},{"Hat": "Crown"},{"Mouth": null},{"Mouth Decoration": "Big Moustache"},{"Neck":"Blue Collar"},{"Glasses": "Visor Dead"},{"Frame": "Damien Hirst"}]],
     ['CHEF',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
     ['ITZA',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['PSB',[{'Background': 'Prison'},{"Fur": 'Hoskasaur'},{"Eyes": null},{"Ear Decoration": 'Stud Left'},{"Hat": 'Red Lunar New Year Hat'},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": '3D Gloss'},{"Frame": 'Lunar New Year Wave'}]],
-    ['QCPOL',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": 'Happy'},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
+    ['PSB',[{'Background': 'Prison'},{"Fur": 'Hoskasaur'},{"Eyes": null},{"Ear Decoration": 'Stud Left'},{"Hat": 'Red Lunar New Year Hat'},{"Mouth": 'Happy'},{"Mouth Decoration": null},{"Neck":null},{"Glasses": '3D Gloss'},{"Frame": 'Lunar New Year Wave'}]],
+    ['QCPOL',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
     ['SALT',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]]
 ]);
 let hoskies = [];
