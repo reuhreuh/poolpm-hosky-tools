@@ -15,4 +15,4 @@ TamperMonkey script to filter staking pool matching [Cardano Hosky NFTs](https:/
 ![image](https://user-images.githubusercontent.com/2742045/165644701-8b87e6af-74f9-44db-a79d-06c9f2144b9f.png)
 
 # Contact
-You can contact me on [Hosky discord](https://discord.gg/hosky) or directly on [twitter](https://twitter.com/reuhreuh).
+You can find me on [Hosky discord](https://discord.gg/hosky) or directly on [twitter](https://twitter.com/reuhreuh).
