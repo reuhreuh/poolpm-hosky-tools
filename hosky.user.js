@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hosky NFT filter for pool.pm
 // @namespace    https://github.com/reuhreuh/poolpm-hosky-filter
-// @version      0.4
+// @version      0.5
 // @description  Filter Hosky NFTs by staking pool !
 // @author       reuhreuh
 // @match        https://pool.pm/*/%40a5bb0e5b
@@ -64,6 +64,7 @@ const buildUI = () => {
     hoskyInput.id = "hosky-filter-input";
     hoskyInput.style.width = '97%';
     hoskyInput.style.height = '35px';
+    hoskyInput.autocomplete = 'off';
     hoskyInput.placeholder = "Enter pool name";
     let matchCount = document.createElement("span");
     matchCount.id="hosky-filter-count";
