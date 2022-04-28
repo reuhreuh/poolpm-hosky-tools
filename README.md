@@ -1,5 +1,5 @@
 # poolpm-hosky-filter
-TamperMonkey script to filter staking pool matching Hosky NFTs on pool.pm.
+TamperMonkey script to filter staking pool matching [Cardano Hosky NFTs](https://hosky.io/) on [pool.pm](https://pool.pm).
 
 # Instructions
 1. Install the Tampermonkey extension 
