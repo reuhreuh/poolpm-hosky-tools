@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/2742045/165722858-0b878ae7-6934-4775-a7bc-bdd9ce71ed52.png)
+
 # poolpm-hosky-filter
 TamperMonkey script to filter staking pool matching [Cardano Hosky NFTs](https://hosky.io/) on [pool.pm](https://pool.pm).
 
@@ -11,3 +13,6 @@ TamperMonkey script to filter staking pool matching [Cardano Hosky NFTs](https:/
 4. Stake pool input box filter should appear :
 
 ![image](https://user-images.githubusercontent.com/2742045/165644701-8b87e6af-74f9-44db-a79d-06c9f2144b9f.png)
+
+# Contact
+You can contact me on [Hosky discord](https://discord.gg/hosky) or directly on [twitter](https://twitter.com/reuhreuh).
