@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hosky NFT filter for pool.pm
 // @namespace    https://github.com/reuhreuh/poolpm-hosky-filter
-// @version      0.3
+// @version      0.4
 // @description  Filter Hosky NFTs by staking pool !
 // @author       reuhreuh
 // @match        https://pool.pm/*/%40a5bb0e5b
@@ -11,31 +11,13 @@
 // @downloadURL  https://raw.githubusercontent.com/reuhreuh/poolpm-hosky-filter/master/hosky.user.js
 // @updateURL    https://raw.githubusercontent.com/reuhreuh/poolpm-hosky-filter/master/hosky.user.js
 // @supportURL   https://github.com/reuhreuh/poolpm-hosky-filter/issues
+// @require https://raw.githubusercontent.com/reuhreuh/poolpm-hosky-filter/master/pools.js
 // @require https://code.jquery.com/jquery-3.6.0.min.js
 // ==/UserScript==
 
 const DEBUG = false;
 const WALLET_URL = "https://pool.pm/wallet/";
 const HOSKY_POLICY_ID = "a5bb0e5bb275a573d744a021f9b3bff73595468e002755b447e01559";
-const POOLS_TRAITS = new Map([
-    ['VEGAS',[{'Background': 'Baby blue'},{'Background': 'Vegas'},{'Background': 'Lunar new year blue'},{"Fur": 'Radioactive Pink'},{"Hat": 'Flat peak'},{"Mouth": 'Meh'},{"Mouth Decoration": 'Cigarette'},{"Glasses": 'Green laser'},{"Frame": 'Fairy lights'}]],
-    ['ALLI',[{'Background': 'Red'},{'Background': 'Fireworks'},{"Fur": 'White'},{"Ear Decoration": null},{"Hat": 'Top hat red'},{"Mouth": 'Sad'},{"Mouth Decoration": 'Sick'},{"Glasses": 'Visor heart'},{"Frame": 'Fish bowl'}]],
-    ['FARM',[{'Background': 'Khaki'},{'Background': 'Fireplace'},{"Fur": 'Gold'},{"Ear Decoration": null},{"Hat": 'Robin Hood'},{"Mouth Decoration": 'Flaming Hot'},{"Neck":'Blue Collar Gold Spikes'},{"Glasses": 'Visor Beam'},{"Frame": 'Poo'}]],
-    ['SEA',[{'Background': 'Navy'},{"Fur": 'Holographic'},{"Hat": 'Reindeer'},{"Hat": 'Silver Crown'},{"Mouth Decoration": 'Snorkle'},{"Glasses": 'Eyepatch Right'},{"Glasses": 'Eyepatch Left'},{"Glasses": 'Red Laser'},{"Frame": 'Test Card'}]],
-    ['ABC',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['JACK',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['PRIDE',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['FIKA',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['HERO',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['PSYA',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['WOOF',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['A3C',[{'Background': 'Late Night'},{"Fur": "Pink"},{"Eyes": null},{"Ear Decoration": null},{"Hat": "Crown"},{"Mouth": null},{"Mouth Decoration": "Big Moustache"},{"Neck":"Blue Collar"},{"Glasses": "Visor Dead"},{"Frame": "Damien Hirst"}]],
-    ['CHEF',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['ITZA',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['PSB',[{'Background': 'Prison'},{"Fur": 'Hoskasaur'},{"Eyes": null},{"Ear Decoration": 'Stud Left'},{"Hat": 'Red Lunar New Year Hat'},{"Mouth": 'Happy'},{"Glasses": '3D Gloss'},{"Frame": 'Lunar New Year Wave'}]],
-    ['QCPOL',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]],
-    ['SALT',[{'Background': null},{"Fur": null},{"Eyes": null},{"Ear Decoration": null},{"Hat": null},{"Mouth": null},{"Mouth Decoration": null},{"Neck":null},{"Glasses": null},{"Frame": null}]]
-]);
 let hoskies = [];
 
 const log = (msg) => DEBUG ? console.log("Hosky filter - ", msg) : null
