@@ -79,7 +79,8 @@ const POOLS_TRAITS = new Map([
 		{'Hat': 'Blue Wooly Hat'},
 		{'Hat': 'Hero 2'},
 		{'Mouth Decoration': 'Goatee'},
-		{'Neck':'Bowtie'),{'Neck':'Red Collar Gold Spikes'},
+		{'Neck':'Bowtie'},
+		{'Neck':'Red Collar Gold Spikes'},
 		{'Glasses': 'Visor Meh'},
 		{'Frame': 'Wood'}]],
     ['PSYA',[
