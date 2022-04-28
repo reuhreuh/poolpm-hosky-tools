@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hosky NFT filter for pool.pm
 // @namespace    https://github.com/reuhreuh/poolpm-hosky-filter
-// @version      0.5
+// @version      1.0 
 // @description  Filter Hosky NFTs by staking pool !
 // @author       reuhreuh
 // @match        https://pool.pm/*/%40a5bb0e5b
