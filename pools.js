@@ -8,7 +8,7 @@ const POOLS_TRAITS = new Map([
 		{'Mouth Decoration': 'Cigarette'},
 		{'Glasses': 'Green laser'},
 		{'Frame': 'Fairy lights'}]],
-    ['ALLI',[
+    ['LIDO',[
 		{'Background': 'Red'},
 		{'Background': 'Fireworks'},
 		{'Fur': 'White'},
@@ -35,7 +35,7 @@ const POOLS_TRAITS = new Map([
 		{'Glasses': 'Eyepatch Left'},
 		{'Glasses': 'Red Laser'},
 		{'Frame': 'Test Card'}]],
-    ['ABC',[
+    ['BONE',[
 		{'Background': 'Poo'},
 		{'Fur': 'Baby Blue'},
 		{'Hat': 'Police'},
