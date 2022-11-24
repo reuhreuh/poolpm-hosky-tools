@@ -1,7 +1,7 @@
 const POOLS_TRAITS = new Map([
     ['A3C',[
 		{'Background': 'Late Night'},
-	        {'Background': 'Happy Trees - Jes Art'},
+	        {'Background': 'Happy Trees - JES Art'},
 	        {'Background': 'Brickwall'},
 	        {'Background': 'Consensus 2022 Uncommon'},
 	        {'Background': 'Jackson Pollock'},
@@ -214,7 +214,7 @@ const POOLS_TRAITS = new Map([
 		{'Mouth': 'Dollar Mouth'},
 		{'Mouth': 'Stitched Up'},
 		{'Mouth Decoration': 'Goatee'},
-		{'Neck':'Bowtie'},
+		{'Neck':'Bow Tie'},
 		{'Neck':'Red Collar Gold Spikes'},
 		{'Glasses': 'Visor Meh'},
 		{'Glasses': 'Stitches'},
@@ -442,7 +442,7 @@ const POOLS_TRAITS = new Map([
 		{'Hat': 'Neon Sphinx Hat'},
 		{'Hat': 'Trent Barnes'},
 		{'Mouth': 'Knitted Mouth'},
-		{'Mouth Decoration': 'Snorkle'},
+		{'Mouth Decoration': 'Snorkel'},
 		{'Neck':'Cone'},
 		{'Glasses': 'Eyepatch Right'},
 		{'Glasses': 'Eyepatch Left'},
