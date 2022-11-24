@@ -186,7 +186,7 @@ const POOLS_TRAITS = new Map([
 		{'Hat': 'Tea Cup World\'s Best Coder'},
 		{'Hat': 'Black Mask'},
 		{'Hat': 'Dumpling'},
-		{'Mouth': 'Sad-ish'},
+		{'Mouth': 'Sad-Ish'},
 		{'Mouth': 'Robot Mouth'},
 		{'Mouth': 'Clown Mouth'},
 		{'Mouth': 'Snarl'},
