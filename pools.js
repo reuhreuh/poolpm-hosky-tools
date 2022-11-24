@@ -524,7 +524,7 @@ const POOLS_TRAITS = new Map([
     ['NANI',[
 		{'Background': 'Dark Black'},
 		{'Background': 'Sahara'},
-		{'Fur': 'X-Ray'},
+		{'Fur': 'X-ray'},
 		{'Fur': 'Ghost'},
 		{'Fur': 'Radioactive Green'},
 		{'Fur': 'Grinch'},
