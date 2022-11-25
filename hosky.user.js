@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Hosky NFT SPO filter for pool.pm
-// @namespace    https://github.com/reuhreuh/poolpm-hosky-filter
+// @name         Hosky NFT tools for pool.pm
+// @namespace    https://github.com/reuhreuh/poolpm-hosky-tools
 // @version      1.2
 // @description  Filter Hosky NFTs by staking pool and display matching SPOs for a given CG !
 // @author       reuhreuh
@@ -8,10 +8,10 @@
 // @icon         https://pool.pm/registry/a0028f350aaabe0545fdcb56b039bfb08e4bb4d8c4d7c3c7d481c235/HOSKY/logo.png
 // @grant        none
 // @run-at document-idle
-// @downloadURL  https://raw.githubusercontent.com/reuhreuh/poolpm-hosky-filter/master/hosky.user.js
-// @updateURL    https://raw.githubusercontent.com/reuhreuh/poolpm-hosky-filter/master/hosky.user.js
-// @supportURL   https://github.com/reuhreuh/poolpm-hosky-filter/issues
-// @require https://raw.githubusercontent.com/reuhreuh/poolpm-hosky-filter/master/pools.js
+// @downloadURL  https://raw.githubusercontent.com/reuhreuh/poolpm-hosky-tools/master/hosky.user.js
+// @updateURL    https://raw.githubusercontent.com/reuhreuh/poolpm-hosky-tools/master/hosky.user.js
+// @supportURL   https://github.com/reuhreuh/poolpm-hosky-tools/issues
+// @require https://raw.githubusercontent.com/reuhreuh/poolpm-hosky-tools/master/pools.js
 // @require https://code.jquery.com/jquery-3.6.0.min.js
 // ==/UserScript==
 
@@ -21,7 +21,7 @@ const ASSET_URL = "https://pool.pm/asset/";
 const HOSKY_POLICY_ID = "a5bb0e5bb275a573d744a021f9b3bff73595468e002755b447e01559";
 let hoskies = [];
 
-const log = (msg) => DEBUG ? console.log("Hosky filter - ", msg) : null
+const log = (msg) => DEBUG ? console.log("Hosky Tools - ", msg) : null
 
 const getWalletAddr = () => {
     var pathArray = window.location.pathname.split('/');
