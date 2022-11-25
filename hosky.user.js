@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hosky NFT SPO filter for pool.pm
 // @namespace    https://github.com/reuhreuh/poolpm-hosky-filter
-// @version      1.1
+// @version      1.2
 // @description  Filter Hosky NFTs by staking pool and display matching SPOs for a given CG !
 // @author       reuhreuh
 // @match        https://pool.pm/*
@@ -225,7 +225,7 @@ const startCGPoolsMatching = (asset) => {
                 startPoolsFilter();
                 addHoskyFilterListener();
             }
-        } else if (lastPathElt.startsWith("asset")){
+        } else if (pathArray.length == 2){
             if($("#nft-file-0").length == 1){
                 log("Dom ready");
                 observer.disconnect();
