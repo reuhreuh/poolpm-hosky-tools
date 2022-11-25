@@ -22,7 +22,7 @@ TamperMonkey script providing few utilities on [pool.pm](https://pool.pm) about 
 ![image](https://user-images.githubusercontent.com/2742045/204035750-06f7a21f-eeb3-408b-bd5e-31418582c480.png)
 
 # Changelog
-### v1.1 (2022-25-11)
+### v1.1 (2022-11-25)
 - Add new pools (NANI, BONE)
 - Add new traits
 - Add traits matching pools on the CG NFT page
