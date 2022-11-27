@@ -451,6 +451,17 @@ const POOLS_TRAITS = new Map([
 		{'Frame': 'Test Card'},
 		{'Frame': 'Flies'},
 		{'Frame': 'Flies Animated'}]],
+    ['STOIC',[
+		{'Background': 'FOO'},
+		{'Fur': 'FOO'},
+		{'Eyes': 'FOO'},
+		{'Ear Decoration': 'FOO'},
+		{'Hat': 'FOO'},
+	        {'Mouth': 'FOO'},
+		{'Mouth Decoration': 'FOO'},
+		{'Neck':'FOO'},
+		{'Glasses': 'FOO'},
+		{'Frame': 'FOO'}]],
     ['VEGAS',[
 		{'Background': 'Baby Blue'},
 		{'Background': 'Vegas'},
