@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hosky NFT tools for pool.pm
 // @namespace    https://github.com/reuhreuh/poolpm-hosky-tools
-// @version      1.2
+// @version      1.3
 // @description  Filter Hosky NFTs by staking pool and display matching SPOs for a given CG !
 // @author       reuhreuh
 // @match        https://pool.pm/*
