@@ -435,6 +435,8 @@ const POOLS_TRAITS = new Map([
 		{'Glasses': 'Not A Orange Turtle'},
 		{'Glasses': 'Not A Purple Turtle'},
 		{'Glasses': 'Not A Blue Turtle'},
+		{'Glasses': '3D Glasses Error'},
+		{'Glasses': 'Black Lennons'},
 		{'Frame': 'Orange Hazmat Suit'},
 		{'Frame': 'Trick'}]],
     ['SALT',[
