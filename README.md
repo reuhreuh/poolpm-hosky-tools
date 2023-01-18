@@ -22,6 +22,8 @@ TamperMonkey script providing few utilities on [pool.pm](https://pool.pm) about 
 ![image](https://user-images.githubusercontent.com/2742045/204035750-06f7a21f-eeb3-408b-bd5e-31418582c480.png)
 
 # Changelog
+### v1.3 (2023-01-18)
+- Add RARE pool
 ### v1.2 (2022-11-30)
 - Add STOIC pool
 ### v1.1 (2022-11-25)
