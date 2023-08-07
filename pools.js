@@ -163,7 +163,7 @@ const POOLS_TRAITS = new Map([
 		{'Frame': 'Poo'},
 		{'Frame': 'Food'},
 		{'Frame': 'Zero'}]],
-    ['FIKA',[
+    ['BAIDU',[
 		{'Background': 'Yellow'},
 	        {'Background': 'Landscape'},
 	        {'Background': 'FIAT'},
@@ -264,7 +264,7 @@ const POOLS_TRAITS = new Map([
 		{'Frame': 'Silver'},
 		{'Frame': 'Glass Jarsky'},
 		{'Frame': 'Wen'}]],
-    ['JACK',[
+    ['HAZEL',[
 		{'Background': 'Peach'},
 	        {'Background': 'Wernis'},
 	        {'Background': 'Epilogue'},
@@ -594,7 +594,7 @@ const POOLS_TRAITS = new Map([
 		{'Glasses': 'Upside Down Right Way Up'},
 		{'Frame': 'Pernis Vs Wernis'},
 		{'Frame': 'Golden Shine'}]],
-    ['NANI',[
+    ['ASPEN',[
 		{'Background': 'Dark Black'},
 		{'Background': 'Sahara'},
 		{'Fur': 'X-ray'},
