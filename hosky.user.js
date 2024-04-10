@@ -226,7 +226,7 @@ const startCGPoolsMatching = (asset) => {
                 addHoskyFilterListener();
             }
         } else if (pathArray.length == 2){
-            if($("#nft-file-0").length == 1){
+            if($("#nft-image").length == 1){
                 log("Dom ready");
                 observer.disconnect();
                 startCGPoolsMatching(lastPathElt);
